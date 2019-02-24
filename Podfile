@@ -6,6 +6,7 @@ target 'DeliveryDetails' do
   use_frameworks!
 
   pod 'Alamofire'
+  pod 'SDWebImage/GIF'
 
   target 'DeliveryDetailsTests' do
     inherit! :search_paths
